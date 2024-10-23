@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/** start header **/
+.header
+{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+
+}
+
+.header .header-parent
+{
+    width: 90%;
+    height:100px ;
+    margin: 0 auto;
+    background-color: lightcoral;
+}
+
+.header .header-parent .logo
+{
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-parent .nav
+{
+    float: right;
+    margin-right: 30px;
+}
+
+.header.header-parent.nav ul li
+{
+    float: left;
+    margin-left: 0px;
+    font-size:  18px; 
+    line-height: 100px;
+}
+
+.header .header-parent .nav ul li a
+{
+    color: aqua;
+    text-transform: uppercase;
+}
+.header .header-parent .logo .cercle
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+    background-color:rebeccapurple;
+    float: left;
+    margin-top: 25px;
+}
+
+.header .header-parent .logo .logo-title
+{
+    float: right;
+    margin-left: 5px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    color: rebeccapurple;
+
+}
+
+/** end header **/
+
+
